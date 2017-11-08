@@ -1,0 +1,50 @@
+
+.icon-search {
+    position: relative;
+    margin: 100px auto 50px;
+    max-width: 700px;
+}
+
+.icon-search::before {
+    top: 18px;
+    left: -5px;
+    position: absolute;
+}
+
+.icon-search input {
+    color: white;
+    font: 400 20px/50px 'Roboto', sans-serif;
+    border: none;
+    width: 100%;
+    padding-left: 50px;
+    margin-left: -25px;
+    background: none;
+    border-bottom: 1px solid white;
+}
+
+.icon-search input:focus {
+    outline: none;
+}
+
+.blockUsers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 585px;
+    overflow: auto;
+}
+
+.blockUsers .user-new {
+    order: -999;
+    cursor: pointer;
+}
+
+.blockUsers .icon-plus {
+    display: block;
+    margin: auto;
+    padding: 35px 0;
+}
+.blockUsers .icon-plus:before {
+    font-size: 52px;
+}

@@ -1,0 +1,48 @@
+
+
+
+.user {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    color: black;
+    display: flex;
+    position: relative;
+    flex-basis: 300px;
+    padding: 20px;
+    background: #60d9fa;
+}
+
+.user:last-child {
+    margin-right: auto;
+}
+
+.user__image {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 20px 0;
+    border-radius: 10px;
+}
+
+
+.user__description {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user__buttons {
+    align-items: flex-end;
+    position: absolute;
+    bottom: 7px;
+}
+
+.user__buttons span {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user__buttons span:first-child {
+    margin-right: 15px;
+}

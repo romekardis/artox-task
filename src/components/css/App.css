@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic');
+
+
+body {
+    background: #212121;
+}
+
+.app {
+    width: 1120px;
+    margin: 100px auto 0;
+    color: white;
+}
+
+
+
+::-webkit-scrollbar-button {
+    width:5px;
+    height:0px
+}
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color:#60d9fa;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:#56999f;
+}
+::-webkit-resizer{
+    width:4px;
+    height:0px
+}
+::-webkit-scrollbar{
+    width: 4px;
+}
